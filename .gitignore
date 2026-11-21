@@ -1,0 +1,7 @@
+# local test output
+output/
+out/
+entry.txt
+__pycache__/
+*.pyc
+.DS_Store
