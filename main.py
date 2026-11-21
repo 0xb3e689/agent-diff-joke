@@ -4,7 +4,10 @@
 import os
 from pathlib import Path
 
-JOKE = "The AI agent's one-line fix touched 61 files; the bug was in the 62nd."
+JOKE = (
+    "Told the agent to stop touching unrelated files. "
+    "Its next diff added a comment to each: // untouched"
+)
 
 
 def main() -> None:
